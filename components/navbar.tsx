@@ -11,7 +11,7 @@ export default function Navbar({}): any {
         <Image
           alt="logo"
           className="mb-2 cursor-pointer w-35 dark:invert"
-          src="https://iili.io/dzAoIqb.png"
+          src="/images/logo.png"
           height={100}
           width={170}
         />
