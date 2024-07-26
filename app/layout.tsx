@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "CoreX Convert",
-    description: `CoreX Convert – your go-to online tool for unlimited and free
+    title: "Free Convert",
+    description: `Free Convert – your go-to online tool for unlimited and free
     multimedia conversion`,
 };
 
