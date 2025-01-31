@@ -15,7 +15,7 @@ export default function Home() {
           content effortlessly with Free Convert!
         </p>
       </div>
-      <div className="space-y-6">      <center>  <p>&copy; 2024 Sagar Bhusal</p> </center>
+      <div className="space-y-6">      <center>  <p>&copy; 2025 Sagar Bhusal</p> </center>
 </div> 
 
       <Dropzone />
