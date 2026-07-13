@@ -6,14 +6,15 @@ import { ModeToggle } from "./mode-toggle";
 
 export default function Navbar({}): any {
   return (
-    <nav className="fixed z-50 flex items-center justify-between w-full h-24 px-4 py-10 backdrop-blur-md bg-background bg-opacity-30 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
+    <nav className="fixed z-50 flex items-center justify-between w-full h-16 px-4 py-2 backdrop-blur-md bg-background bg-opacity-30 md:h-24 md:px-8 md:py-4 lg:px-12 xl:px-16 2xl:px-24">
       <Link href="/">
         <Image
           alt="logo"
-          className="mb-2 cursor-pointer w-35 dark:invert"
+          className="mb-2 cursor-pointer dark:invert"
           src="/images/logo.png"
           height={100}
           width={170}
+          style={{ width: "auto", height: "auto" }}
         />
       </Link>
       <div className="items-center hidden gap-2 md:flex">
